@@ -81,9 +81,6 @@ def create_file():
     key as its content. Something with a random encrypted name will make less sense to someone
     who may find the USB than say "github.utf8" meaning if someone finds the USB stick, they wont
     be able to know what each of the files are
-    
-    Also, I am using .utf8 as the file extension simply so that when someone plugs this into a
-    computer, they will see .utf8 instead of .txt or .json and because the text is turned into bytes with utf-8
     """
 
     # Renaming given_pass to content_format
