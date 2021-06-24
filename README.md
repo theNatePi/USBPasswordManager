@@ -1,7 +1,7 @@
 # USBPasswordManager
 A script to encrypt and decrypt passwords stored on a USB drive to act as a login key
 
-## General Idea ##
+## Project Idea ##
 
 For increased security you want to have a different password for every site you use. However, memorizing multiple long passwords is too much of a hassle for many people.
 
