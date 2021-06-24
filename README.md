@@ -20,6 +20,4 @@ The password will then be copied to their clipboard.
 
 ## Issues/Other Information ##
 
-This has not been tested on Windows since Windows Defender really does not like unsigned .exe files (understandably).
-Because of this if the code was not signed it would be difficult to use in the real world.
-However, macOS and Linux do not have the same issue, meaning this USB login drive can be used for personal devices with these operating systems.
+The python script has to be compiled into an executable file which makes it difficult to run on other PCs because of codesigning.
