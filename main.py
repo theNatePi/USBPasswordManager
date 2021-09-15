@@ -72,12 +72,11 @@ def create_file():
     # Turning the name of the service into bytes and encrypting it
     encrypted_name = encrypt(bytes(given_name, 'utf-8'))
     # This takes the encrypted name for the file,
-    # takes away the b'' added to indicate it is bytes in python 3.9,
     # and adds .utf8 for the file extension
     final_name = str(encrypted_name).removeprefix("b'").removesuffix("'") + '.utf8'
 
     """
-    Side note for the above operation. The names of each file are encrypted using the same
+    For the above operation. The names of each file are encrypted using the same
     key as its content. Something with a random encrypted name will make less sense to someone
     who may find the USB than say "github.utf8" meaning if someone finds the USB stick, they wont
     be able to know what each of the files are
